@@ -1,7 +1,10 @@
 # Datasets
 
-!!! note "Not migrated yet"
-    Content still on Google Sites.
+iNaturalist2018 dataset can be downloaded
+[here](https://github.com/visipedia/inat_comp/tree/master/2018).
 
-    Paste the text from your Google Sites page here, or send it to Claude and
-    ask for this file back. Delete this admonition block once the page is done.
+imageNet2012 data is available for downloading
+[here](https://www.kaggle.com/competitions/imagenet-object-localization-challenge/data).
+
+MiniImageNet data is available for downloading
+[here](https://www.kaggle.com/datasets/arjunashok33/miniimagenet?resource=download).

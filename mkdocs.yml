@@ -2,11 +2,6 @@ site_name: Yihang Zhu
 site_description: PhD candidate in machine learning, computer vision and combinatorial optimization at the University of Leicester.
 site_author: Yihang Zhu
 
-# CHANGE THIS once you know your repo name.
-# For a repo called "yihang-site" owned by "YihangZhu", the URL is:
-#   https://YihangZhu.github.io/yihang-site/
-# If you name the repo "YihangZhu.github.io" instead, use:
-#   https://YihangZhu.github.io/
 site_url: https://YihangZhu.github.io/yh-site/
 
 repo_url: https://github.com/YihangZhu/yh-site

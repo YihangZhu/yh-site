@@ -4,11 +4,12 @@
 
 ![Yihang Zhu](assets/photo.jpg){ .profile-photo }
 
-**朱一行**
-
-PhD candidate
-School of Computing and Mathematical Sciences
+<div class="profile-text" markdown>
+**朱一行**<br>
+PhD candidate<br>
+School of Computing and Mathematical Sciences<br>
 University of Leicester
+</div>
 
 </div>
 

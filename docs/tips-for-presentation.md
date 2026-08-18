@@ -1,7 +1,4 @@
 # Tips for presentation
 
-!!! note "Not migrated yet"
-    Content still on Google Sites.
-
-    Paste the text from your Google Sites page here, or send it to Claude and
-    ask for this file back. Delete this admonition block once the page is done.
+Principle of making slides: should let the audience get the main points in a
+short time, then gradually expand the details of each main point.

@@ -5,14 +5,16 @@ Built with [MkDocs](https://www.mkdocs.org/) and the
 `docs/` as plain Markdown; appearance is controlled by `mkdocs.yml` and
 `docs/stylesheets/extra.css`.
 
-## Before you deploy
+## Still to do
 
 1. **Replace the photo.** `docs/assets/photo.jpg` is a grey placeholder. Save the
-   portrait from your Google Sites page and overwrite it.
-2. **Fix `site_url` in `mkdocs.yml`.** It currently assumes a repo named
-   `yihang-site`. See the comment in that file.
-3. **Fill in the stub pages.** Every page under `docs/` except `index.md` has a
-   "Not migrated yet" block. Replace it with your content.
+   portrait you want to use and overwrite it.
+2. **Add the tutorial figures.** Four pages carry a "Figure to add" callout where
+   Google Sites had a screenshot: `train-on-colab.md`, `tips-for-ml-training.md`
+   and `training-with-multiple-gpus.md`. Save the images out of the old site into
+   `docs/assets/` and swap the callouts for image links.
+3. **Write `tips-for-doing-research.md`.** The Google Sites version held only an
+   empty custom embed, so there was nothing to migrate.
 
 ## Preview locally
 

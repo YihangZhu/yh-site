@@ -1,7 +1,10 @@
-# ML training tutorial
+# Training machine learning models with GPUs
 
-!!! note "Not migrated yet"
-    Overview page for the tutorial section.
+Practical notes on getting models trained: where to find free GPU resources, how
+to use Google Colab, and how to run jobs on the university HPC clusters.
 
-    Paste the text from your Google Sites page here, or send it to Claude and
-    ask for this file back. Delete this admonition block once the page is done.
+- [Getting started](getting-started.md)
+- [Free GPU resource](free-gpu-resource.md)
+- [Train on Colab](train-on-colab.md)
+- [Train on the HPCs](train-on-the-hpcs/index.md)
+- [Datasets](datasets.md)

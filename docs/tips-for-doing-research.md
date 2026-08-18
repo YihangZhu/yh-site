@@ -1,7 +1,5 @@
 # Tips for doing research
 
-!!! note "Not migrated yet"
-    Content still on Google Sites.
-
-    Paste the text from your Google Sites page here, or send it to Claude and
-    ask for this file back. Delete this admonition block once the page is done.
+!!! warning "Nothing to migrate"
+    On Google Sites this page contained only a custom embed with no readable
+    text, so there was nothing to copy across. Add your notes here.

@@ -1,7 +1,10 @@
 # Getting started
 
-!!! note "Not migrated yet"
-    Content still on Google Sites.
+This section covers:
 
-    Paste the text from your Google Sites page here, or send it to Claude and
-    ask for this file back. Delete this admonition block once the page is done.
+- The free GPUs resources
+- How to use these GPUs resources (Google Colab, HPCs)
+- How to use multiple GPUs for training
+- How to set up and manage SSH key for easy access to the HPCs
+- How to download the popular datasets
+- The tips for training a model
