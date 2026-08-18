@@ -69,3 +69,106 @@
 .profile-text p {
   margin: 0;
 }
+
+/* ---- Research framework page ---------------------------------------- */
+
+/* Material keeps the indigo primary at the same tone in both colour schemes,
+   which is too dark on the slate background. Lighten it for dark mode. */
+[data-md-color-scheme="default"] {
+  --yz-accent: var(--md-primary-fg-color);
+  --yz-kill: #9c2b2b;
+}
+
+[data-md-color-scheme="slate"] {
+  --yz-accent: #9fa8da;
+  --yz-kill: #ff8a80;
+}
+
+.md-typeset .standfirst {
+  color: var(--md-default-fg-color--light);
+  margin-bottom: 1.6rem;
+}
+
+.md-typeset .phase-head {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+  border-top: 1px solid var(--md-default-fg-color--lighter);
+  margin-top: 1.6rem;
+  padding-top: 0.9rem;
+}
+
+.md-typeset .phase-head h2 {
+  margin: 0;
+  flex: 1 1 auto;
+  font-weight: 400;
+}
+
+.md-typeset .phase-head .num {
+  color: var(--yz-accent);
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  margin-right: 0.2rem;
+}
+
+.md-typeset .phase-head .budget {
+  margin: 0 0 0 auto;
+  font-size: 0.7rem;
+  color: var(--md-default-fg-color--light);
+  white-space: nowrap;
+}
+
+.md-typeset .phase-head + ul {
+  margin-top: 0.7rem;
+}
+
+.md-typeset .return-note {
+  border-left: 2px solid var(--yz-accent);
+  padding-left: 0.7rem;
+  color: var(--yz-accent);
+}
+
+.md-typeset .principles {
+  border-top: 1px solid var(--md-default-fg-color--lighter);
+  margin-top: 2rem;
+  padding-top: 0.4rem;
+}
+
+.md-typeset .principles h2 {
+  font-weight: 400;
+}
+
+.md-typeset .principles ol > li::marker {
+  color: var(--yz-accent);
+  font-weight: 700;
+}
+
+.md-typeset .principles ol > li {
+  margin-bottom: 0.6rem;
+}
+
+.md-typeset .coda {
+  border-top: 1px solid var(--md-default-fg-color--lighter);
+  margin-top: 1.8rem;
+  padding-top: 0.9rem;
+  font-size: 0.72rem;
+  color: var(--md-default-fg-color--light);
+}
+
+.md-typeset .coda strong {
+  color: var(--md-default-fg-color);
+}
+
+/* "most ideas die here" — readable in both colour schemes */
+.md-typeset li.kill,
+.md-typeset li.kill::marker {
+  color: var(--yz-kill);
+}
+
+@media screen and (max-width: 44.9em) {
+  .md-typeset .phase-head .budget {
+    margin-left: 0;
+    width: 100%;
+  }
+}

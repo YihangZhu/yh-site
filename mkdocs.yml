@@ -9,6 +9,7 @@ repo_name: YihangZhu/yh-site
 
 theme:
   name: material
+  custom_dir: overrides
   language: en
   features:
     - navigation.instant
@@ -101,5 +102,10 @@ nav:
   - Tips for doing research: tips-for-doing-research.md
   - Tips for presentation: tips-for-presentation.md
   - Violin: violin.md
+
+# docs/else/ is deliberately kept out of the nav above, so it never appears in
+# the menu. This stops MkDocs reporting those files as accidentally omitted.
+not_in_nav: |
+  else/**
 
 copyright: Copyright &copy; Yihang Zhu

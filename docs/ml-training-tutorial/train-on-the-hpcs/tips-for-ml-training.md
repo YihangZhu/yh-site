@@ -36,5 +36,5 @@ follows.
 !!! info "Figure to add"
     Chart of the multi-epoch dataloader experimental results. Save it from the
     [original page](https://sites.google.com/view/zhuyihang/ml-training-tutorial/train-on-the-hpcs/tips-for-ml-training)
-    into `docs/assets/dataloader-results.png`, then replace this block with
-    `![Experimental results](../../assets/dataloader-results.png)`.
+    into `docs/imgs/dataloader-results.png`, then replace this block with
+    `![Experimental results](../../imgs/dataloader-results.png)`.

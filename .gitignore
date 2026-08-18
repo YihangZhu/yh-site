@@ -3,3 +3,6 @@ site/
 venv/
 __pycache__/
 .DS_Store
+
+# scratch folder for files awaiting deletion — safe to remove entirely
+_to_delete/

@@ -8,11 +8,7 @@ A sample of the framework for running distributed training can be found
 An overview of the distributed training process is provided using the figure
 below.
 
-!!! info "Figure to add"
-    Overview diagram of the distributed training process. Save it from the
-    [original page](https://sites.google.com/view/zhuyihang/ml-training-tutorial/train-on-the-hpcs/training-with-multiple-gpus)
-    into `docs/assets/ddp-overview.png`, then replace this block with
-    `![Distributed training overview](../../assets/ddp-overview.png)`.
+[![srun launches main.py once per node; the multiprocessing package runs main_worker() on each of the three GPUs in a node; the distributed package synchronises all six GPUs over an IP address and port. Node 0 holds global GPU ranks 0-2 and node 1 holds ranks 3-5, for a world size of 6.](../../imgs/ddp.png)](../../imgs/ddp.png)
 
 Let's assume that we are running experiments with a SLURM job system, using two
 nodes and 3 GPUs per node. `main.py` is our job as illustrated in the figure

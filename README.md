@@ -7,14 +7,11 @@ Built with [MkDocs](https://www.mkdocs.org/) and the
 
 ## Still to do
 
-1. **Replace the photo.** `docs/assets/photo.jpg` is a grey placeholder. Save the
-   portrait you want to use and overwrite it.
-2. **Add the tutorial figures.** Four pages carry a "Figure to add" callout where
-   Google Sites had a screenshot: `train-on-colab.md`, `tips-for-ml-training.md`
-   and `training-with-multiple-gpus.md`. Save the images out of the old site into
-   `docs/assets/` and swap the callouts for image links.
-3. **Write `tips-for-doing-research.md`.** The Google Sites version held only an
-   empty custom embed, so there was nothing to migrate.
+1. **Add the remaining tutorial figures.** Two pages still carry a "Figure to
+   add" callout where Google Sites had a screenshot: `train-on-colab.md` (four
+   images) and `tips-for-ml-training.md` (one). Save them out of the old site
+   into `docs/imgs/` and swap the callouts for image links, following the
+   pattern now used in `training-with-multiple-gpus.md`.
 
 ## Preview locally
 
@@ -64,6 +61,30 @@ Callouts:
 
 Collapsible sections, tabs, footnotes and tables are also available — see the
 `markdown_extensions` list in `mkdocs.yml`.
+
+## The hidden `else/` section
+
+`docs/else/` holds working notes. It is deliberately kept out of `nav:` in
+`mkdocs.yml`, so it never appears in the menu. Reach it directly at
+<https://YihangZhu.github.io/yh-site/else/>.
+
+Each page in there carries this front matter, which keeps it out of the site
+search index and tells search engines not to index it:
+
+```yaml
+---
+noindex: true
+search:
+  exclude: true
+---
+```
+
+The `noindex` flag is handled by `overrides/main.html` (emits the robots meta
+tag) and `overrides/sitemap.xml` (leaves the page out of `sitemap.xml`).
+
+**This is unlisted, not private.** The repository is public, so anyone with the
+URL can read these pages and the Markdown source is visible on GitHub. For
+anything genuinely private, keep it out of this repo.
 
 ## Adding a page
 

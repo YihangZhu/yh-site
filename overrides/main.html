@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{#
+  Pages with `noindex: true` in their front matter ask search engines not to
+  index or follow them. Used by the hidden docs/else/ section.
+#}
+{% block extrahead %}
+  {{ super() }}
+  {% if page and page.meta and page.meta.noindex %}
+    <meta name="robots" content="noindex, nofollow">
+  {% endif %}
+{% endblock %}
