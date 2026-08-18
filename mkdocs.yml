@@ -1,0 +1,110 @@
+site_name: Yihang Zhu
+site_description: PhD candidate in machine learning, computer vision and combinatorial optimization at the University of Leicester.
+site_author: Yihang Zhu
+
+# CHANGE THIS once you know your repo name.
+# For a repo called "yihang-site" owned by "YihangZhu", the URL is:
+#   https://YihangZhu.github.io/yihang-site/
+# If you name the repo "YihangZhu.github.io" instead, use:
+#   https://YihangZhu.github.io/
+site_url: https://YihangZhu.github.io/yihang-site/
+
+repo_url: https://github.com/YihangZhu
+repo_name: YihangZhu
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.top
+    - navigation.indexes
+    - navigation.footer
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.code.annotate
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  icon:
+    repo: fontawesome/brands/github
+
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/YihangZhu
+      name: GitHub
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/yihangzhu/
+      name: LinkedIn
+    - icon: fontawesome/solid/graduation-cap
+      link: https://scholar.google.com/citations?user=-8MA5dsAAAAJ&hl=en
+      name: Google Scholar
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+plugins:
+  - search
+
+nav:
+  - Home: index.md
+  - ML training tutorial:
+      - ml-training-tutorial/index.md
+      - Getting started: ml-training-tutorial/getting-started.md
+      - Free GPU resource: ml-training-tutorial/free-gpu-resource.md
+      - Train on Colab: ml-training-tutorial/train-on-colab.md
+      - Train on the HPCs:
+          - ml-training-tutorial/train-on-the-hpcs/index.md
+          - Slurm: ml-training-tutorial/train-on-the-hpcs/slurm.md
+          - Python venv: ml-training-tutorial/train-on-the-hpcs/python-venv.md
+          - Training with multiple GPUs: ml-training-tutorial/train-on-the-hpcs/training-with-multiple-gpus.md
+          - ssh-related: ml-training-tutorial/train-on-the-hpcs/ssh-related.md
+          - Tips for ML training: ml-training-tutorial/train-on-the-hpcs/tips-for-ml-training.md
+      - Datasets: ml-training-tutorial/datasets.md
+  - Tips for writing a paper: tips-for-writing-a-paper.md
+  - Tips for doing research: tips-for-doing-research.md
+  - Tips for presentation: tips-for-presentation.md
+  - Violin: violin.md
+
+copyright: Copyright &copy; Yihang Zhu
