@@ -7,10 +7,10 @@ site_author: Yihang Zhu
 #   https://YihangZhu.github.io/yihang-site/
 # If you name the repo "YihangZhu.github.io" instead, use:
 #   https://YihangZhu.github.io/
-site_url: https://YihangZhu.github.io/yihang-site/
+site_url: https://YihangZhu.github.io/yh-site/
 
-repo_url: https://github.com/YihangZhu
-repo_name: YihangZhu
+repo_url: https://github.com/YihangZhu/yh-site
+repo_name: YihangZhu/yh-site
 
 theme:
   name: material
