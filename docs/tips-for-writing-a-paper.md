@@ -1,4 +1,6 @@
-# Tips for writing
+# Tips for writing a paper
+
+<div class="principles" markdown="1">
 
 ## Principles
 
