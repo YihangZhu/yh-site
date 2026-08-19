@@ -1,26 +1,28 @@
 # Tips for writing
 
 ## Principles
-During writing, we should bring new knowledge to the reader in a clear order and
-at a slow pace, so that they can learn it gradually.
 
-**(1)** it is essential to realise the known knowledge on the reader's side and
-the possible questions in the reader's mind at each stage when they go through
-the paper, for example, when a reader is reading Section 1 of a paper which has
-five sections, they know A, B and don't know C, so we need to introduce C in the
-first paragraph of section 1. In the second paragraph of section 1, the reader
-already knows A B C, and they may wonder about the details of C, which let's
-call C.1. So we need to introduce C.1 in second paragraph of section 1.
+During writing, we should bring new knowledge to the reader in a clear,
+structured order and at a slow pace, so that they can learn it gradually.
+{ .standfirst }
 
-**(2)** It is essential to realise the relation between the knowledge we are
-about to present to the readers at each stage of writing. Here, stage means, for
-example, we write the paper in the order of section 1, section 2, and section 3,
-so each section is a stage.
+1. It is essential to recognise what the reader already knows and the
+   questions likely in their mind at each stage of the paper. For example, if
+   a reader is on Section 1 of a five-section paper, they already know A and B
+   but not C, so we need to introduce C in the first paragraph of Section 1.
+   By the second paragraph they know A, B and C, and may wonder about the
+   details of C — call it C.1 — so we introduce C.1 there.
+2. It is essential to recognise the relations between the pieces of knowledge
+   we present at each section. For example, if Section 2 relies on a method
+   introduced in Section 1, say so explicitly rather than assuming the reader
+   will make the connection themselves.
+
+</div>
 
 Phrase bank:
-[https://www.phrasebank.manchester.ac.uk/introducing-work/](https://www.phrasebank.manchester.ac.uk/introducing-work/)
+[Academic Phrasebank — Introducing Work](https://www.phrasebank.manchester.ac.uk/introducing-work/)
 
-## paper structure
+## Paper structure
 
 ### Abstract
 
@@ -42,7 +44,9 @@ Phrase bank:
 5. How do we structure this paper?
 
 ### Related work
-1. Discuss the closely related work and the strengths and weaknesses of each work, and how this work addresses the limitations of the existing work.
+
+1. Discuss the closely related work, its strengths and weaknesses, and how
+   this work addresses those limitations.
 
 ### Methodology
 
@@ -54,5 +58,5 @@ Phrase bank:
 
 ### Conclusion
 
-1. Summerise what we did, the strength of the work
-2. Limitation of the work and future directions
+1. Summarise what we did, and the strength of the work
+2. Limitations of the work and future directions
