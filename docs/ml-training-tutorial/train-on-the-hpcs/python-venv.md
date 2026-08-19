@@ -1,28 +1,28 @@
-# Python virtual venv
+# Python virtual environment
 
-It is important to create a python virtue environment for running your python
-code on an HPC for three reasons:
+It is important to create a Python virtual environment for running your
+Python code on an HPC, for three reasons:
 
-- it provides you with a Python environment that is required for running your
+- It provides you with a Python environment that is required for running your
   Python code.
-- in the Python virtue environment, you can have the freedom to install any
-  Python packages that are required to run your code. It is usually not allowed
-  to install Python packages in the HPC, because you simply will not have
+- In the Python virtual environment, you have the freedom to install any
+  Python packages required to run your code. It is usually not allowed to
+  install Python packages directly on the HPC, because you simply won't have
   permission to do so.
-- you can just create one Python virtue environment and use it for running
-  different Python codes.
+- You can create one Python virtual environment and reuse it for running
+  different Python scripts.
 
-Creating a Python virtue environment only requires three steps:
+Creating a Python virtual environment only requires three steps:
 
 **(1)** Log in to the HPC. Check [here](ssh-related.md) for details.
 
-**(2)** Load the Python module available on the HPC. Type, e.g.:
+**(2)** Load the Python module available on the HPC, e.g.:
 
 ```bash
 module load Python/3.10.4
 ```
 
-then enter. On HPC Sulis you can check the available python module using:
+On Sulis, you can check the available Python modules using:
 
 ```bash
 module spider python
@@ -34,17 +34,17 @@ module spider python
 python3 -m venv /path-to-new-virtual-python
 ```
 
-After creating the virtual env, we can activate it by typing:
+After creating the virtual environment, activate it by typing:
 
 ```bash
-source path-to-new-virtual-python/bin/activate
+source /path-to-new-virtual-python/bin/activate
 ```
 
-Then we can install packages that are in the file `requirements.txt` by typing:
+Then install the packages listed in `requirements.txt` by typing:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Other information about installing Python virtual environment is available
+More information on installing a Python virtual environment is available
 [here](https://docs.python-guide.org/dev/virtualenvs/#virtualenvironments-ref).
