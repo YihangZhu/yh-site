@@ -11,10 +11,7 @@
    interesting to say, not the goal itself. Aiming purely at publication is like
    starting a business to turn a quick profit rather than to build something
    good.
-4. Take negative results seriously. A negative result is worth keeping when the
-   experiment was capable of showing the opposite — that narrows the search
-   space. "I couldn't make it work" is a much weaker claim than "it doesn't
-   work".
+4. If you are able to constantly obtain reliable negative results, open and critically analysing the negative results will eventually lead to a positive one.
 5. Premature optimisation is the enemy. Don't tune, scale, or generalise
    anything until you know it's worth keeping.
 
