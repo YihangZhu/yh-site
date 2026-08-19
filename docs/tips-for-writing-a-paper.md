@@ -1,7 +1,8 @@
 # Tips for writing
 
+## Principles
 During writing, we should bring new knowledge to the reader in a clear order and
-at a slow pace, so that they can learn it steadily.
+at a slow pace, so that they can learn it gradually.
 
 **(1)** it is essential to realise the known knowledge on the reader's side and
 the possible questions in the reader's mind at each stage when they go through
@@ -19,7 +20,7 @@ so each section is a stage.
 Phrase bank:
 [https://www.phrasebank.manchester.ac.uk/introducing-work/](https://www.phrasebank.manchester.ac.uk/introducing-work/)
 
-## How to write a paper?
+## paper structure
 
 ### Abstract
 
@@ -27,7 +28,7 @@ Phrase bank:
 2. Specific background of the study
 3. Motivation: summarise the existing work and limitations of the existing
    work/research gaps
-4. How do we deal with these issues/our findings/solution
+4. How do we deal with these issues/our findings/solution?
 5. Our results
 6. Impact of our work
 
@@ -38,7 +39,10 @@ Phrase bank:
    challenges.
 3. Detail the representative existing work and limitations of the existing work
 4. Our contributions
-5. How do we structure this paper
+5. How do we structure this paper?
+
+### Related work
+1. Discuss the closely related work and the strengths and weaknesses of each work, and how this work addresses the limitations of the existing work.
 
 ### Methodology
 

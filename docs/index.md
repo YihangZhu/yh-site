@@ -2,7 +2,7 @@
 
 <div class="profile" markdown>
 
-![Yihang Zhu](imgs/photo.jpeg){ .profile-photo }
+![Yihang Zhu](imgs/photo2.jpeg){ .profile-photo }
 
 <div class="profile-text" markdown>
 **朱一行**<br>
