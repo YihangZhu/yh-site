@@ -5,8 +5,7 @@
 Each run can use a maximum of one GPU, which is usually an
 [NVIDIA T4](https://research.google.com/colaboratory/faq.html). The time limit
 for consecutive usage is 12 hours. The availability of the GPU resource is not
-guaranteed. Details on how to use Google Colab are available
-[here](train-on-colab.md).
+guaranteed.
 
 University of Leicester students/staff can use two HPCs for free: Alice and
 Sulis.

@@ -89,7 +89,6 @@ nav:
       - ml-training-tutorial/index.md
       - Getting started: ml-training-tutorial/getting-started.md
       - Free GPU resource: ml-training-tutorial/free-gpu-resource.md
-      - Train on Colab: ml-training-tutorial/train-on-colab.md
       - Train on the HPCs:
           - ml-training-tutorial/train-on-the-hpcs/index.md
           - Slurm: ml-training-tutorial/train-on-the-hpcs/slurm.md

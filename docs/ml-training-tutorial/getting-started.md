@@ -3,8 +3,7 @@
 This section covers:
 
 - The [free GPU resources](free-gpu-resource.md)
-- How to use these GPU resources ([Google Colab](train-on-colab.md),
-  [HPCs](train-on-the-hpcs/index.md))
+- How to use these GPU resources ([HPCs](train-on-the-hpcs/index.md))
 - How to use [multiple GPUs for training](train-on-the-hpcs/training-with-multiple-gpus.md)
 - How to set up and manage an [SSH key](train-on-the-hpcs/ssh-related.md) for
   easy access to the HPCs
