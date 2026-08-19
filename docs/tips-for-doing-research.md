@@ -1,6 +1,7 @@
 # Tips for doing research
 
-## Principles
+## Principles { .section-head }
+
 <div class="principles" markdown="1">
 
 1.  Document/back up everything that may be useful for later.
@@ -17,7 +18,7 @@
 
 </div>
 
-## A framework for conducting ML research
+## A framework for conducting ML research { .section-head }
 
 7 steps, each with a time budget. The hard part isn't the order — it's sticking
 to the limits. Most ideas die at step 4, and that's the point.

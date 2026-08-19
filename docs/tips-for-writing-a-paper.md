@@ -1,11 +1,12 @@
 # Tips for writing a paper
 
-## Principles
-<div class="principles" markdown="1">
+## Principles { .section-head }
 
 During writing, we should bring new knowledge to the reader in a clear,
 structured order and at a slow pace, so that they can learn it gradually.
 { .standfirst }
+
+<div class="principles" markdown="1">
 
 1. It is essential to recognise what the reader already knows and the
    questions likely in their mind at each stage of the paper. For example, if
@@ -23,7 +24,7 @@ structured order and at a slow pace, so that they can learn it gradually.
 Phrase bank:
 [Academic Phrasebank — Introducing Work](https://www.phrasebank.manchester.ac.uk/introducing-work/)
 
-## Paper structure
+## Paper structure { .section-head }
 
 ### Abstract
 

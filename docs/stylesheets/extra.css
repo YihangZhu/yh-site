@@ -129,14 +129,13 @@
   color: var(--yz-accent);
 }
 
-.md-typeset .principles {
+/* Attach directly to a heading — e.g. `## Principles { .section-head }` —
+   so the separator survives the heading moving in and out of wrapper divs. */
+.md-typeset .section-head {
+  font-weight: 400;
   border-top: 1px solid var(--md-default-fg-color--lighter);
   margin-top: 2rem;
   padding-top: 0.4rem;
-}
-
-.md-typeset .principles h2 {
-  font-weight: 400;
 }
 
 .md-typeset .principles ol > li::marker {
