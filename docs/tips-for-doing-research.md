@@ -1,6 +1,8 @@
+# Tips for doing research
+
 <div class="principles" markdown="1">
 
-## # Principles for conducting ML research
+## Principles
 
 1.  Document/back up everything that may be useful for later.
 2. Keep comparisons and statistical reporting strictly fair. That means equal
@@ -19,8 +21,7 @@
 
 </div>
 
-# A framework for conducting ML research
-
+## A framework for conducting ML research
 
 7 steps, each with a time budget. The hard part isn't the order — it's sticking
 to the limits. Most ideas die at step 4, and that's the point.
@@ -37,9 +38,9 @@ to the limits. Most ideas die at step 4, and that's the point.
 
 - Use Claude to gather related papers. Skim around 20 abstracts and read around 5 properly.
   Work out the main approaches, the standard benchmarks, and who is active in the area.
-- Ask two or three people what's actually challenges here, and what has already been
-  tried and failed. Failed attempts rarely get published, so you can't learn
-  this any other way.
+- Ask people what's actually challenging here, and what has already
+  been tried and failed. Failed attempts rarely get published, so you can't
+  learn this any other way.
 
 <div class="phase-head" markdown="1">
 
@@ -52,7 +53,7 @@ to the limits. Most ideas die at step 4, and that's the point.
 
 - Build the simplest solution and codebase that runs end to end, starting from a decent existing
   repository, to get a feel for the project.
-- The codebase should contain data splits, evaluation metric, seed control, clean structured logging output for what is programing going on during running.
+- The codebase should contain data splits, evaluation metrics, seed control, and clean, structured logging of what's going on during a run.
 - Have a log file and todo list. Anything unexpected, interesting, or important goes in it. This turns out to be your best source of ideas.
 
 <div class="phase-head" markdown="1">
@@ -79,13 +80,13 @@ to the limits. Most ideas die at step 4, and that's the point.
 
 </div>
 
-- You should have some research questions which are identified in the existing papers that are unanswered/unexplored or motivated by the limitations of the existing work. 
-- You should have some ideas for exploring the answers to the research questions and some hypothesis which is the expected answers to the research questions.
+- You should have some research questions — ones the existing papers leave unanswered or unexplored, or that are motivated by the limitations of the existing work.
+- You should have some ideas for exploring the answers to those questions, and some hypotheses — your expected answers to them.
 - Read the literature again to check whether the answers are already available in the literature. Use Claude to widen the
   search — but verify anything it names before trusting it. Fifteen minutes can save a month.
 - Use the strongest existing methods to grow your own codebase, keeping the setups and
-  findings worth keeping, and keeping the whole thing simple. so later comparisons
-  run through the same pipeline and differ in only one place. 
+  findings worth keeping, and keeping the whole thing simple, so later comparisons
+  run through the same pipeline and differ in only one place.
 
 <div class="phase-head" markdown="1">
 
