@@ -1,8 +1,7 @@
 # Tips for doing research
 
-<div class="principles" markdown="1">
-
 ## Principles
+<div class="principles" markdown="1">
 
 1.  Document/back up everything that may be useful for later.
 2. Keep comparisons and statistical reporting strictly fair. That means equal

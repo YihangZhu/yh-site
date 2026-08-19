@@ -1,8 +1,7 @@
 # Tips for writing a paper
 
-<div class="principles" markdown="1">
-
 ## Principles
+<div class="principles" markdown="1">
 
 During writing, we should bring new knowledge to the reader in a clear,
 structured order and at a slow pace, so that they can learn it gradually.
