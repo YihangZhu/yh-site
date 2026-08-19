@@ -5,14 +5,6 @@ Built with [MkDocs](https://www.mkdocs.org/) and the
 `docs/` as plain Markdown; appearance is controlled by `mkdocs.yml` and
 `docs/stylesheets/extra.css`.
 
-## Still to do
-
-1. **Add the remaining tutorial figures.** Two pages still carry a "Figure to
-   add" callout where Google Sites had a screenshot: `train-on-colab.md` (four
-   images) and `tips-for-ml-training.md` (one). Save them out of the old site
-   into `docs/imgs/` and swap the callouts for image links, following the
-   pattern now used in `training-with-multiple-gpus.md`.
-
 ## Preview locally
 
 ```bash
