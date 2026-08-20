@@ -14,10 +14,18 @@ marked `noindex` so search engines skip it.
     the URL, and the Markdown source is visible on GitHub. Keep anything you'd
     mind a stranger reading out of here.
 
-## Pages
+## Technical
 
-- [Scratch](scratch.md)
-- [Reading list](reading-list.md)
+- [Machine Learning Notes](MLnotes.md)
+- [Python-related](Pythonrelated.md)
+- [Linux-related](Linuxrelated.md)
+- [Yihang's website — LaTeX](LaTeX.md)
+- [Miscellany](Miscellany.md)
+
+## Travel
+
+- [Travel - UK](TravelUK.md)
+- [Travel - Morocco](Travelmorocco.md)
 
 ## Adding another page
 
@@ -32,5 +40,5 @@ marked `noindex` so search engines skip it.
     ---
     ```
 
-3. Add a link to it in the list above. Do **not** add it to `nav:` in
+3. Add a link to it in a list above. Do **not** add it to `nav:` in
    `mkdocs.yml` — that is what keeps it out of the menu.
