@@ -25,7 +25,7 @@ unzip imagenet/imagenet-object-localization-challenge.zip -d /datasets/imagenet/
 
 `vi file`, click `i` for modifying the file. After editing, press `esc` and input `:wq` to save and exit.
 
-SSH-related for interacting with a remote server, e.g., data transfer via `scp`, login, is detailed here.
+SSH-related for interacting with a remote server, e.g., data transfer via `scp`, login, is detailed [here](../ml-training-tutorial/train-on-the-hpcs/ssh-related.md).
 
 ## References
 

@@ -26,7 +26,7 @@ search:
 
 ## Google spreadsheet
 
-- **Conditional formatting**: `=$g105`, more details see here.
+- **Conditional formatting**: `=$g105`, more details see [here](https://support.google.com/docs/answer/78413).
 
 ## Camera
 
@@ -36,8 +36,8 @@ search:
 
 ## Principle of research
 
-- Orthogonalization
-- Premature optimization
+- [Orthogonalization](https://www.coursera.org/learn/machine-learning-projects/lecture/FRvQe/orthogonalization)
+- [Premature optimization](http://wiki.c2.com/?PrematureOptimization)
 
 ## Image editor
 
@@ -72,11 +72,11 @@ search:
 
 ## Printer
 
-- Tutorial on how to use the printer at the University of Leicester is available here.
+- Tutorial on how to use the printer at the University of Leicester is available [here](https://uniofleicester.sharepoint.com/sites/get-it-help/SitePages/print.aspx).
 
 ## Travel
 
-- Morocco
+- [Morocco](Travelmorocco.md)
 - **Spain visa application**: <https://www.reddit.com/r/SchengenVisa/comments/17xqm8f/anyone_else_unable_to_upload_their_photo_on_bls/>
 
 ## Google add-on
@@ -89,7 +89,7 @@ search:
 - When a normal distribution assumption or central limit theorem holds for each group of data, we can use a parametric hypothesis test, such as a t-test.
 - Otherwise, we can use a nonparametric hypothesis test, which is also called a distribution-free test, e.g., Wilcoxon signed-rank test.
 - If two groups are dependent, we should use, for example, a paired Wilcoxon signed-rank test.
-- A nice discussion about how to choose a hypothesis test is available here and here.
+- A nice discussion about how to choose a hypothesis test is available [here](https://stats.stackexchange.com/questions/121852/how-to-choose-between-t-test-or-non-parametric-test-e-g-wilcoxon-in-small-sampl) and [here](https://www.sciencedirect.com/topics/medicine-and-dentistry/nonparametric-test).
 
 ## Web scraping
 

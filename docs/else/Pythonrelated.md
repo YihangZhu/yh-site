@@ -9,14 +9,14 @@ search:
 ## Setup
 
 - **Install Python on Mac via brew**: <https://docs.python-guide.org/starting/install3/osx/> and set brew python as the default: <https://stackoverflow.com/questions/5157678/how-do-i-use-brew-installed-python-as-the-default-python>
-- **Python virtual environment** is detailed here.
-- **ML model training tips** are detailed here.
+- **Python virtual environment** is detailed [here](../ml-training-tutorial/train-on-the-hpcs/python-venv.md).
+- **ML model training tips** are detailed [here](../ml-training-tutorial/train-on-the-hpcs/tips-for-ml-training.md).
 
 ## General
 
 - `super().__init__()` instead of `super(ChildB, self).__init__()`: <https://stackoverflow.com/questions/576169/understanding-python-super-with-init-methods>
 - **Issues in loading pickle** related to Python version incompatibility: <https://stackoverflow.com/questions/11305790/pickle-incompatibility-of-numpy-arrays-between-python-2-and-3>
-- **Set the spacing between subplots** discussed here. The position of the `*` edge of the subplots is a fraction of the figure width.
+- **Set the spacing between subplots** discussed [here](https://www.geeksforgeeks.org/how-to-set-the-spacing-between-subplots-in-matplotlib-in-python/). The position of the `*` edge of the subplots is a fraction of the figure width.
 
 ```python
 plt.subplots_adjust(left=0.1,
@@ -35,7 +35,7 @@ plt.tight_layout()  # for automatically maintaining the proper space between sub
 - Converting an image from `Image` to (RGB) is equal to converting the image to array. The two images will be the same when we convert them back to `Image` type.
 - **Two data structures for storing datasets**: <https://realpython.com/storing-images-in-python/>
 - **Convert string to function**: <https://java2blog.com/python-string-to-function/>
-- **Regex in Python** is discussed here. A nice, brief tutorial is available here.
+- **Regex in Python** is discussed [here](https://stackoverflow.com/questions/5658369/how-to-input-a-regex-in-string-replace). A nice, brief tutorial is available [here](https://medium.com/factory-mind/regex-tutorial-a-simple-cheatsheet-by-examples-649dc1c3f285).
 - **Sort in Python**: <https://stackoverflow.com/questions/7851077/how-to-return-index-of-a-sorted-list>
 - **How to change one char in a string**: <https://stackoverflow.com/questions/1228299/changing-one-character-in-a-string>
 - **Histogram for array**: <https://stackoverflow.com/questions/22159160/python-calculate-histogram-of-image>
