@@ -4,9 +4,6 @@ site_author: Yihang Zhu
 
 site_url: https://YihangZhu.github.io/yh-site/
 
-repo_url: https://github.com/YihangZhu/yh-site
-repo_name: YihangZhu/yh-site
-
 theme:
   name: material
   custom_dir: overrides
@@ -37,8 +34,6 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
-  icon:
-    repo: fontawesome/brands/github
 
 extra_css:
   - stylesheets/extra.css

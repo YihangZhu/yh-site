@@ -31,53 +31,6 @@ Then on GitHub: **Settings → Pages → Build and deployment → Source → Git
 Actions**. The workflow in `.github/workflows/deploy.yml` runs on every push to
 `main` and publishes the built site.
 
-## Writing pages
-
-Fenced code blocks get syntax highlighting and a copy button:
-
-````markdown
-```bash
-sbatch job.slurm
-```
-````
-
-Callouts:
-
-```markdown
-!!! note
-    Check the queue with `squeue -u $USER`.
-
-!!! warning
-    Requesting more GPUs than the partition has will silently queue forever.
-```
-
-Collapsible sections, tabs, footnotes and tables are also available — see the
-`markdown_extensions` list in `mkdocs.yml`.
-
-## The hidden `else/` section
-
-`docs/else/` holds working notes. It is deliberately kept out of `nav:` in
-`mkdocs.yml`, so it never appears in the menu. Reach it directly at
-<https://YihangZhu.github.io/yh-site/else/>.
-
-Each page in there carries this front matter, which keeps it out of the site
-search index and tells search engines not to index it:
-
-```yaml
----
-noindex: true
-search:
-  exclude: true
----
-```
-
-The `noindex` flag is handled by `overrides/main.html` (emits the robots meta
-tag) and `overrides/sitemap.xml` (leaves the page out of `sitemap.xml`).
-
-**This is unlisted, not private.** The repository is public, so anyone with the
-URL can read these pages and the Markdown source is visible on GitHub. For
-anything genuinely private, keep it out of this repo.
-
 ## Adding a page
 
 1. Create the `.md` file under `docs/`.

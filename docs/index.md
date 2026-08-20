@@ -32,7 +32,7 @@ combinatorial optimization.
 ## On this site
 
 - **[ML training tutorial](ml-training-tutorial/index.md)** — practical notes on
-  getting models trained: free GPU resources, Colab, and running jobs on HPC
+  getting models trained: free GPU resources, and running jobs on HPC
   clusters with Slurm.
 - **[Tips for writing a paper](tips-for-writing-a-paper.md)**
 - **[Tips for doing research](tips-for-doing-research.md)**
