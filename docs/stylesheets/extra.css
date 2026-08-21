@@ -94,9 +94,7 @@
   align-items: baseline;
   gap: 0.6rem;
   flex-wrap: wrap;
-  border-top: 1px solid var(--md-default-fg-color--lighter);
-  margin-top: 1.6rem;
-  padding-top: 0.9rem;
+  margin-top: 2.2rem;
 }
 
 .md-typeset .phase-head h2 {
